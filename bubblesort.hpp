@@ -15,7 +15,7 @@
  * @param A zu sortierendes Feld
  * @post A ist sortiert
  */
-void bubblesort(std::vector& A);
+void bubblesort(std::vector<int>& A);
 
 /**
  * @brief Sortierung eines Feldes mittels Bubblesort-Algorithmus\n
@@ -27,11 +27,11 @@ void bubblesort(std::vector& A);
  * @post Änderung von vergleiche
  * @post Änderung von schreibzugriffe
  */
-void bubblesort(std::vector& A, unsigned int& vergleiche, unsigned int& schreibzugriffe);
+void bubblesort(std::vector<int>& A, unsigned int& vergleiche, unsigned int& schreibzugriffe);
 
 
 
-void bubblesort(std::vector &A) {
+void bubblesort(std::vector<int> &A) {
     bool warSortiert;
     do {
         warSortiert = true;
@@ -44,7 +44,7 @@ void bubblesort(std::vector &A) {
     } while (!warSortiert);
 }
 
-void bubblesort(std::vector &A, unsigned int &vergleiche, unsigned int &schreibzugriffe) {
+void bubblesort(std::vector<int> &A, unsigned int &vergleiche, unsigned int &schreibzugriffe) {
     bool warSortiert;
     do {
         warSortiert = true;
