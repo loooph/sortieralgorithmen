@@ -11,7 +11,6 @@
 
 /**
  * @brief Sortierung eines Feldes mittels Bubblesort-Algorithmus\n
- * Zählt Schlüsselvergleiche und Schreibzugriffe im Feld
  * @param A zu sortierendes Feld
  * @post A ist sortiert
  */
